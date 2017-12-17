@@ -16,7 +16,7 @@
         android:id="@+id/textView" />
 
     <EditText
-        android:id="@+id/editTextPokemonName"
+        android:id="@+id/etSearch"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -32,107 +32,15 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/editTextPokemonName">
+        android:layout_below="@+id/etSearch">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:id="@+id/layout">
 
-            <Button
-                android:id="@+id/pokemon1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="DEX ENTRY: #001: BULBASAUR"
-                />
 
-            <Button
-                android:id="@+id/pokemon2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="DEX ENTRY: #002: IVYSAUR"/>
-
-            <Button
-                android:id="@+id/pokemon3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="DEX ENTRY: #003: VENUSAUR"/>
-
-            <Button
-                android:id="@+id/pokemon4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="DEX ENTRY: #004: CHARMANDER"
-                />
-
-            <Button
-                android:id="@+id/pokemon5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="DEX ENTRY: #005: CHARMELEON"/>
-
-            <Button
-                android:id="@+id/pokemon6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="DEX ENTRY: #006: CHARIZARD"/>
-
-            <Button
-                android:id="@+id/pokemon7"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="DEX ENTRY: #007: SQUIRTLE"
-                />
-
-            <Button
-                android:id="@+id/pokemon8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="DEX ENTRY: #008: WARTORTLE"/>
-
-            <Button
-                android:id="@+id/pokemon9"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="DEX ENTRY: #009: BLASTOISE"/>
-
-            <Button
-                android:id="@+id/pokemon10"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="DEX ENTRY: #010: CATERPIE"
-                />
-
-            <Button
-                android:id="@+id/pokemon11"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="DEX ENTRY: #011: METAPOD"/>
-
-            <Button
-                android:id="@+id/pokemon12"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="DEX ENTRY: #012: BUTTERFREE"/>
-
-            <Button
-                android:id="@+id/pokemon13"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="DEX ENTRY: #013: WEEDLE"
-                />
-
-            <Button
-                android:id="@+id/pokemon14"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="DEX ENTRY: #014: KAKUNA"/>
-
-            <Button
-                android:id="@+id/pokemon15"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="DEX ENTRY: #015: BEEDRILL"/>
 
         </LinearLayout>
 
