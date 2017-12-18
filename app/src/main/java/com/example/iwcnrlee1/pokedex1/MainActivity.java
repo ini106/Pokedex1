@@ -2,6 +2,7 @@ package com.example.iwcnrlee1.pokedex1;
 
 import android.annotation.SuppressLint;
 import android.app.ActionBar;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -99,6 +100,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.exit:
                 finish();
                 return true;
+            case R.id.second_activity:
+                Intent i = new Intent(this,SecondActivity.class);
+                startActivity(i);
             default:
                     return super.onOptionsItemSelected(item);
         }
